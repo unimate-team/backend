@@ -1,9 +1,9 @@
 package com.unimate.backend.accounts.repository;
 
-import com.spring.unimate.accounts.domain.User;
+import com.unimate.backend.accounts.domain.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface AccountRepository extends JpaRepository<Account, Long> {
 }
