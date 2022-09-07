@@ -7,6 +7,7 @@ import javax.persistence.Table;
 @Getter
 @Table(name = "roll_type")
 @AllArgsConstructor
+@NoArgsConstructor
 public enum RoleType {
     ROLE_USER(0, "ROLE_USER"),
     ROLE_ADMIN(1, "ROLE_ADMIN");
